@@ -1,6 +1,5 @@
-package com.example.session03.config;
+package com.example.btvn.config;
 
-import com.example.session03.Model.Employee;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,19 +7,23 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+// đánh dấu lớp cấu hình
 @Configuration
-
+// bật sử dụng web mvc
 @EnableWebMvc
-
-@ComponentScan(basePackages = "com.example.session03")
+// sử dụng scan để quét các bean
+@ComponentScan(basePackages = "com.example.btvn")
 public class AppConfig {
 
-
+    // Phải cấu hình bean view dữ liệu
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/views/");
+        // tiền tố
+        viewResolver.setPrefix("/views/");
+        // hậu tố
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
+
 }

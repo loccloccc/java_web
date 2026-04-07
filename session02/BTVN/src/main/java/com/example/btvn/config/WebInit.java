@@ -1,4 +1,4 @@
-package com.example.session03.config;
+package com.example.btvn.config;
 
 import org.jspecify.annotations.Nullable;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -11,12 +11,13 @@ public class WebInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
     @Override
     protected Class<?> @Nullable [] getServletConfigClasses() {
-
+        // Liệt những lớp cấu hình ở đây
         return new Class[]{AppConfig.class};
     }
 
     @Override
     protected String[] getServletMappings() {
-        return new String[]{"/employees"};
+        // tất cả những request đều sẽ đi qua đây
+        return new String[]{"/"};
     }
 }

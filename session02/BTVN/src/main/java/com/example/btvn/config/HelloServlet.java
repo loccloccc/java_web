@@ -1,4 +1,4 @@
-package com.example.btvn;
+package com.example.btvn.config;
 
 import java.io.*;
 
