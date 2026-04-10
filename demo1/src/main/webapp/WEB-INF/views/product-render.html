@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--header-->
+    <div th:replace="/layout::header"></div>
+<!--body-->
+<!--    input va booton-->
+    <div style="display: flex ; justify-content: space-between">
+        <input style="width:40px ; heiight : 20px ; border-radius: 5px">
+        <button style="background-color: blue ; color: azure">Them</button>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+            <th>stock</th>
+            <th>status</th>
+            <th>actions</th>
+        </tr>
+        </thead>
+    </table>
+<!--footer-->
+    <div th:replace="/layout::footer"></div>
+</body>
+</html>

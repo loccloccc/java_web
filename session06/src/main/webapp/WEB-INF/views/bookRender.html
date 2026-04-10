@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:replace="/layout/layout::headerBook"></div>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AUTHOR</th>
+            <th>PRICE</th>
+            <th>ACTIONS</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="b : ${bookList}" th:style="${b.price > 300000} ? 'color : red;' : 'color : black;'">
+            <td th:text="${b.id}"></td>
+            <td th:text="${b.name}"></td>
+            <td th:text="${b.author}"></td>
+            <td th:text="${b.price}"></td>
+            <td>
+                <a th:href="@{|/detatils/*{b.id}|}">detail</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div th:replace="/layout/layout::footer"></div>
+</body>
+</html>
