@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:object="${person}">
+        <div style="display: flex"> ID : <div th:text="*{id}"></div></div>
+        <div style="display: flex">NAME : <div th:text="*{name}"></div> </div>
+        <div style="display: flex">AGE : <div th:text="*{age}"></div> </div>
+        <div style="display: flex">GENDER : <div th:text="*{gender} ? 'NAM' : 'NU'"></div> </div>
+    </div>
+</body>
+</html>

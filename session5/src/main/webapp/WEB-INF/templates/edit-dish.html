@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+    <div th:replace="/layout/layout::header"></div>
     <form th:object="${update}">
         <label>ID</label>
         <input th:field="*{id}"><br>
@@ -15,5 +16,6 @@
         <label>STATUS</label>
         <input th:value="*{isAvailable} ? 'Con hang' : 'Het hang'" readonly><br>
     </form>
+    <div th:replace="/layout/layout::footer"></div>
 </body>
 </html>
