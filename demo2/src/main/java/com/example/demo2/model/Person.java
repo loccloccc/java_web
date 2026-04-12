@@ -5,15 +5,17 @@ public class Person {
      private String name;
      private int age;
      private boolean gender;
+     private String url;
 
     public Person() {
     }
 
-    public Person(int id, String name, int age, boolean gender) {
+    public Person(int id, String name, int age, boolean gender, String url) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.url = url;
     }
 
     public int getId() {
@@ -46,5 +48,13 @@ public class Person {
 
     public void setGender(boolean gender) {
         this.gender = gender;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }
