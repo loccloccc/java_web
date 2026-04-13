@@ -1,0 +1,19 @@
+Vấn đề Tên cửa hàng bị null:
+
+Trong class RestaurantProfile, field là private String name;.
+
+Nhưng trong form HTML, input lại có name="restaurantName".
+
+Spring Data Binding dựa vào tên thuộc tính (field) hoặc getter/setter để map dữ liệu. Vì không khớp (restaurantName ≠ name), nên khi submit, Spring không thể gán giá trị vào profile.name. Kết quả: luôn null.
+
+Vấn đề checkbox Active:
+
+Field trong model là private boolean active;.
+
+Trong form HTML, checkbox được khai báo:
+
+html
+<input type="checkbox" name="active" value="MỞ_CỬA" />
+Spring mong đợi giá trị "true" hoặc "false" (hoặc mặc định khi checkbox được tick thì gửi "on").
+
+Việc đặt value="MỞ_CỬA" khiến Spring không parse được sang boolean. Nếu không tick, form không gửi gì cả → backend nhận false mặc định. Nếu tick, Spring cố gắng parse "MỞ_CỬA" sang boolean → lỗi hoặc không khớp logic.

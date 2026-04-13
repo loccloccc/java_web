@@ -1,0 +1,3 @@
+Đoạn code lặp lại đó vi phạm nguyên tắc **DRY (Don't Repeat Yourself)**.
+
+Nếu sau này có tới 20 trang giao diện đều cần danh sách “Nhóm món ăn”, rủi ro bảo trì là: mỗi lần thêm/sửa nhóm món ăn bạn phải chỉnh ở tất cả các chỗ copy-paste. Chỉ cần sót một chỗ là dữ liệu hiển thị sẽ không đồng bộ, gây lỗi và làm tăng chi phí bảo trì.
