@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8a848e8-8156-465c-9c94-f5d06506171c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo4/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo4/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P1/src/main/java/com/example/ss8_p1/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P1/src/main/java/com/example/ss8_p1/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P1/src/main/java/com/example/ss8_p1/dto/AddressDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P1/src/main/java/com/example/ss8_p1/dto/AddressDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P2/src/main/java/com/example/ss8_p2/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P2/src/main/java/com/example/ss8_p2/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P2/src/main/java/com/example/ss8_p2/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P2/src/main/java/com/example/ss8_p2/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/MultipleOfTenThousand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/MultipleOfTenThousand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/MultipleOfTenThousandValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/MultipleOfTenThousandValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/WithdrawRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P3/src/main/java/com/example/ss8_p3/WithdrawRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/PasswordMatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/PasswordMatches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/PasswordMatchesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/PasswordMatchesValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SS8_P4/src/main/java/com/example/ss8_p4/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/config/WebInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/config/WebInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/java/com/example/sesion09_demo/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_ja.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_ja.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_vi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_vi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_zh.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/resources/messages_zh.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sesion09_demo/src/main/webapp/WEB-INF/views/login-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sesion09_demo/src/main/webapp/WEB-INF/views/login-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session07_BTVN/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session07_BTVN/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/model/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/model/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/validator/EmailExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/validator/EmailExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/validator/EmailExisyValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/java/com/example/session08_demo/validator/EmailExisyValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-form-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-form-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../session08_demo/src/main/webapp/WEB-INF/views/person-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session10/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CXC3B967DbdON7ujWpAayXL9Ks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Build demo4.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.54.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\loc\OneDrive\Máy tính\Java Web\demo4\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 10.1.54" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : demo4-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4d6be225-2f7b-4264-959f-311e99a3550c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54534" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : demo4-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8a848e8-8156-465c-9c94-f5d06506171c" name="Changes" comment="" />
+      <created>1776522326870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776522326870</updated>
+      <workItem from="1776522328054" duration="5582000" />
+      <workItem from="1776591552613" duration="3546000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+<form th:action="@{/handle-submit}" method="post" th:object="${personDTO}">
+    <div>
+        <label for="">ID</label>
+        <input type="number" name="" id="" th:field="*{id}">
+        <p class="error" th:if="${#fields.hasErrors('id')}"
+            th:errors="*{id}"
+        ></p>
+    </div>
+    <div>
+        <label for="">NAME</label>
+        <input type="text" name="" id="" th:field="*{name}">
+        <p class="error" th:if="${#fields.hasErrors('name')}"
+            th:errors="*{name}"
+        ></p>
+    </div>
+    <div>
+        <label for="">GENDER</label>
+        <select name="" id="" th:field="*{gender}">
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHER">OTHER</option>
+        </select>
+    </div>
+    <div>
+        <label for="">BIRTH</label>
+        <input type="date" name="" id="" th:field="*{dateOfBirth}">
+        <p class="error" th:if="${#fields.hasErrors('dateOfBirth')}" th:errors="*{dateOfBirth}"></p>
+    </div>
+    <div>
+        <label for="">AGE</label>
+        <input type="number" name="" id="" th:field="*{age}">
+        <p class="error" th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
+    </div>
+    <div>
+        <label for="">EMAIL</label>
+        <input type="text" name="" id="" th:field="*{email}">
+        <p class="error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
 </body>
 </html>

@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>DOB</th>
+            <th>AGE</th>
+            <th>EMAIL</th>
+            <th colspan="2">ACTION</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${persons}">
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+                <td th:text="${p.gender}"> </td>
+                <td th:text="${#temporals.format(p.dateOfBirth ,'dd/MM/yyyy' )}"></td>
+                <td th:text="${p.age}"></td>
+                <td th:text="${p.email}"></td>
+                <td>
+                    <a  th:href="@{|/view-edit/${p.id}|}">Sua</a>
+                </td>
+                <td>
+                    <a  th:href="@{|/delete/${p.id}|}">Xoa</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/view-add}">ADD PERSON</a>
 </body>
 </html>
