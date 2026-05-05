@@ -1,0 +1,11 @@
+ - Hibernate cần một khóa chính  để định danh duy nhất mỗi entity. Không có `@Id` -> không biết phân biệt, update hay delete bản ghi nào -> không thể quản lý entity  nên sẽ lỗi.
+
+Đổi tên bảng khác tên class:
+  Dùng annotation:
+
+  ====
+  @Entity
+  @Table(name = "ten_bang_trong_db")
+  ====
+
+  → cho phép map class Java sang bảng DB với tên khác.

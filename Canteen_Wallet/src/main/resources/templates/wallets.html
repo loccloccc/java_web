@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Ví Căn Tin</title>
+</head>
+<body>
+<h1>Danh sách Ví</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Số dư</th>
+    </tr>
+    <tr th:each="wallet : ${wallets}">
+        <td th:text="${wallet.id}"></td>
+        <td th:text="${wallet.balance}"></td>
+    </tr>
+</table>
+
+<h2>Chuyển tiền</h2>
+<form th:action="@{/transfer}" method="post">
+    From Wallet ID: <input type="text" name="fromId"/><br/>
+    To Wallet ID: <input type="text" name="toId"/><br/>
+    Amount: <input type="text" name="amount"/><br/>
+    <button type="submit">Transfer</button>
+</form>
+
+<div th:if="${success}" th:text="${success}" style="color:green"></div>
+<div th:if="${error}" th:text="${error}" style="color:red"></div>
+</body>
+</html>

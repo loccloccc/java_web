@@ -1,0 +1,24 @@
+Nhìn vào đoạn config: phần Properties props đang thiếu cấu hình quan trọng
+
+
+Hibernate cần dialect để biết:
+
+Bạn đang dùng loại database nào(MySQL, PostgreSQL…)
+ Từ đó sinh câu SQL đúng cú pháp
+
+ Không có hibernate.dialect Hibernate không biết generate SQL kiểu gì  fail ngay khi build SessionFactory
+
+  Thuộc tính tự tạo bảng từ Java class
+Thuộc tính cần thêm vào props là:
+
+
+props.put("hibernate.hbm2ddl.auto", "update");
+
+
+Đây là cái giúp:
+
+Tự tạo bảng (`medicines`, `prescriptions`)
+Đồng bộ schema theo entity
+
+
+

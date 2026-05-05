@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product List</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <!-- TITLE -->
+    <h2 class="mb-4">Product List</h2>
+
+    <!-- 🔍 SEARCH -->
+    <form class="form-inline mb-3" method="get" th:action="@{/products}">
+        <input class="form-control mr-2"
+               type="text"
+               name="search"
+               th:value="${search}"
+               placeholder="Search product name...">
+
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+
+    <!-- 📋 TABLE -->
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th width="150px">Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="p : ${products}">
+            <td th:text="${p.id}"></td>
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+
+            <td>
+                <a th:href="@{/products/edit/{id}(id=${p.id})}"
+                   class="btn btn-warning btn-sm">Edit</a>
+
+                <a th:href="@{/products/delete/{id}(id=${p.id})}"
+                   class="btn btn-danger btn-sm"
+                   onclick="return confirm('Are you sure?')">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <nav>
+        <ul class="pagination">
+
+            <!-- Prev -->
+            <li class="page-item" th:classappend="${current == 0} ? 'disabled'">
+                <a class="page-link"
+                   th:href="@{/products(page=${current - 1}, search=${search})}">
+                    Previous
+                </a>
+            </li>
+
+            <!-- Page numbers -->
+            <li class="page-item"
+                th:each="i : ${#numbers.sequence(0, totalPages - 1)}"
+                th:classappend="${i == current} ? 'active'">
+
+                <a class="page-link"
+                   th:href="@{/products(page=${i}, search=${search})}"
+                   th:text="${i + 1}">
+                </a>
+            </li>
+
+            <!-- Next -->
+            <li class="page-item"
+                th:classappend="${current == totalPages - 1} ? 'disabled'">
+
+                <a class="page-link"
+                   th:href="@{/products(page=${current + 1}, search=${search})}">
+                    Next
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
